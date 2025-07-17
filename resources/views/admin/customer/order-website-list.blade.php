@@ -107,7 +107,7 @@
                                                     </td>
                                                     <td>
                                                         <span class="badge bg-info"
-                                                            style="font-size: 12px; color: black">Pranerbazar</span><br />
+                                                            style="font-size: 12px; color: black">{{env('APP_NAME')}}</span><br />
                                                         <span
                                                             style="font-size: 16px; font-weight:600;">{{ $order->orderId ?? 'No order id found' }}</span><br />
                                                         <span

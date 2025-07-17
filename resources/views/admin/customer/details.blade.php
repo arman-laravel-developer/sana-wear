@@ -36,7 +36,7 @@
                                         <label for="store">
                                             Store <span style="color: red;">*</span>
                                         </label>
-                                        <input type="text" name="store" class="form-control" value="Pranerbazar.com" readonly>
+                                        <input type="text" name="store" class="form-control" value="{{env('APP_URL')}}" readonly>
                                     </div>
                                 </div>
                                 <div class="col-md-6">

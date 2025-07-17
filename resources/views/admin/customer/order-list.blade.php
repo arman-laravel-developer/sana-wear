@@ -106,7 +106,7 @@
                                                             <img src="{{ asset('/product/images/'.$order->orderDetails[0]->product?->image) }}" alt="product image" height="50" width="50" />
                                                         </td>
                                                         <td>
-                                                            <span class="badge bg-info" style="font-size: 12px; color: black">Pranerbazar</span><br/>
+                                                            <span class="badge bg-info" style="font-size: 12px; color: black">{{env('APP_NAME')}}</span><br/>
                                                             <span style="font-size: 16px; font-weight:600;">{{ $order->orderId ?? 'No order id found' }}</span><br/>
                                                             <span class="badge rounded-pill bg-primary">{{ $order->order_type }}</span> <br/>
                                                             {{ $order->created_at->diffForHumans() }}
